@@ -2,8 +2,14 @@
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px 0 15px 0;
-  font-size: 1rem;
+  font-size: 0.6rem;
   color: #727272;
   box-shadow: 12.8123px 12.8123px 1.06769px rgba(0, 0, 0, 0.13);
   border: 2px solid #ffffff;
+}
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .author__container {
+    font-size: 0.8rem;
+  }
 }

@@ -1,5 +1,6 @@
 import "./Phrase.css";
 
+// eslint-disable-next-line react/prop-types
 const Phrase = ({ phrase }) => {
   return (
     <section className="phrase__container">
